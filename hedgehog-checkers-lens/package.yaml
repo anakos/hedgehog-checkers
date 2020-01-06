@@ -12,7 +12,7 @@ extra-source-files:
 
 dependencies:
   - base >= 4.7 && < 5
-  - hedgehog >= 0.5 && < 0.6
+  - hedgehog >=1 && < 2
   - hedgehog-checkers
   - lens >= 4 && < 5
 

@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6d8a12f17d936f2e4a1c75d0c1e8bfb3a6e4fb9d1654f7c87b59c4ff832b5794
+-- hash: e63e625a6531a512f45c644cfb01eb7bd357b932ceb70ce6063ffb054b6eb593
 
 name:           hedgehog-checkers-lens
 version:        0.1.0.0
@@ -15,7 +17,6 @@ copyright:      2017, Chris Allen
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 extra-source-files:
     README.md
 
@@ -24,7 +25,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , hedgehog >=0.5 && <0.6
+    , hedgehog >=1 && <2
     , hedgehog-checkers
     , lens >=4 && <5
   exposed-modules:
@@ -41,7 +42,7 @@ test-suite tests
   ghc-options: -threaded -Wall -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , hedgehog >=0.5 && <0.6
+    , hedgehog >=1 && <2
     , hedgehog-checkers
     , hedgehog-checkers-lens
     , lens >=4 && <5

@@ -10,12 +10,12 @@ description:         hedgehog-checkers wraps up the expected properties associat
 
 dependencies:
   - base >= 4.7 && < 5
-  - hedgehog >= 0.5 && < 0.6
+  - hedgehog >= 1.0.1
 
 library:
   source-dirs: src
   dependencies:
-    - containers >= 0.4 && < 0.6
+    - containers >= 0.4 && <= 0.6.2.1
     - semigroups >= 0.9 && < 1
     - semigroupoids >= 5 && < 6
   exposed-modules:
